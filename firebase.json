@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "build",
-    "target": "starwarsmovie",
+    "site": "starwarsmovie",
     "ignore": [
       "firebase.json",
       "**/.*",
