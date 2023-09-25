@@ -1,4 +1,7 @@
-# My React
+
+![Sep-25-2023 23-38-57](https://github.com/ari633/star-wars/assets/528036/5e358c9d-c824-4c47-90f9-3e2d6780ad45)
+
+# My star-wars movie
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - State management using Reducer combined with Context 
 
