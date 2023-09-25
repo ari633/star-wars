@@ -6,7 +6,7 @@ type ProviderProps = {
   children: ReactNode;
 };
 
-const MoviesContext = createContext<TypeMovie | null>(null);
+export const MoviesContext = createContext<TypeMovie | null>(null);
 
 export function MoviesProvider ({ children }: ProviderProps)  {
 

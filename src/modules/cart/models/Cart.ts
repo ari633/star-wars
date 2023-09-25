@@ -6,6 +6,6 @@ export type TypeCart = {
   qty: number
 }
 
-export type TypeCartAction = TypeCart & { 
+export type TypeCartAction = TypeCart & {
   type: string;
 }

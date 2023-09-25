@@ -8,23 +8,23 @@ export function cartsReducer(
     case "added": {
       return carts.find((item) => item.id === action.id)
         ? carts.map((item) =>
-            item.id === action.id
-              ? {
-                  ...item,
-                  qty: item.qty + 1,
-                }
-              : item
-          )
+          item.id === action.id
+            ? {
+              ...item,
+              qty: item.qty + 1,
+            }
+            : item
+        )
         : [
-            ...carts,
-            {
-              id: action.id,
-              title: action.title,
-              price: action.price,
-              qty: action.qty,
-              image: action.image,
-            },
-          ];
+          ...carts,
+          {
+            id: action.id,
+            title: action.title,
+            price: action.price,
+            qty: action.qty,
+            image: action.image,
+          },
+        ];
     }
     case "remove": {
       return carts.filter((item) => item.id !== action.id);
