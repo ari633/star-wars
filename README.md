@@ -4,7 +4,7 @@
 
 - CSS Framework using [tailwindcss](https://tailwindcss.com/)
 
-- This project hosted in the firebase hostinghttps://starwarsmovie.web.app/
+- This project hosted in the firebase hosting https://starwarsmovie.web.app/
 
 - For deployment to firebase already using CI/CD workflow
 
