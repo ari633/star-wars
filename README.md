@@ -1,6 +1,9 @@
 
 ![Sep-25-2023 23-38-57](https://github.com/ari633/star-wars/assets/528036/5e358c9d-c824-4c47-90f9-3e2d6780ad45)
 
+<img width="1019" alt="Screenshot 2023-09-26 at 12 27 48" src="https://github.com/ari633/star-wars/assets/528036/6990e08d-c7d1-4464-b146-2a055c97b8a6">
+
+
 # My star-wars movie
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - State management using Reducer combined with Context 
