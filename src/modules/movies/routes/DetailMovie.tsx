@@ -33,7 +33,7 @@ export default function DetailMovie() {
   if (!movie) {
     return (
       <div>
-        Movie not found
+        Movie not found 
       </div>
     )
   }
@@ -52,7 +52,7 @@ export default function DetailMovie() {
           <div className="font-bold">
             Price: ${movie.price}
           </div>
-          <button className="h-10 px-6 font-semibold rounded-md border bg-green-500 border-slate-200 text-white" onClick={handleAddToCart}>
+          <button className="h-10 px-6 font-semibold rounded-md border bg-green-500 border-slate-200 text-white" onClick={handleAddToCart} data-testid="add-to-cart">
             Add to Cart
           </button>
         </div>
