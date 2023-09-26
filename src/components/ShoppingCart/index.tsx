@@ -43,9 +43,9 @@ export function ShoppingCart() {
           ))}
         </div>
       </div>
-      Total QTY: {summary?.items}
+      Total QTY: <span data-testid="total-qty">{summary?.items}</span>
       <br />
-      Total Price: ${summary?.total}
+      Total Price: <span data-testid="total-price">${summary?.total}</span>
     </div>
   );
 }
